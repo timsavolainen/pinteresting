@@ -82,7 +82,7 @@ Pinteresting::Application.configure do
   # note to set this to your actual host
   config.action_mailer.default_url_options = { :host => 'tim-pinteresting.herokuapp.com' }
 
-  # Sets Paperclip to upload iamges to Amazon S3
+  # Sets Paperclip to upload images to Amazon S3
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
